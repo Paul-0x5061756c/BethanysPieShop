@@ -24,5 +24,4 @@ public partial class Map
             elementId,
             Markers);
     }
-
 }

@@ -1,5 +1,4 @@
 ﻿using BethanysPieShopHRM.Shared.Domain;
-using BlazorFundamentals.Models;
 using BlazorFundamentals.Services;
 using Microsoft.AspNetCore.Components;
 

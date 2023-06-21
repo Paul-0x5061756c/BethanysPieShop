@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using BethanysPieShopHRM.Shared;
-using BethanysPieShopHRM.Shared.Domain;
+﻿using BethanysPieShopHRM.Shared.Domain;
 
 namespace BethanysPieShopHRM.Api.Models
 {
-    public class JobCategoryRepository: IJobCategoryRepository
+    public class JobCategoryRepository : IJobCategoryRepository
     {
         private readonly AppDbContext _appDbContext;
 

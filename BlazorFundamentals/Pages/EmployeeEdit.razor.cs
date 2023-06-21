@@ -86,7 +86,6 @@ public partial class EmployeeEdit
                 StatusClass = "alert-success";
                 Message = "New employee added successfully.";
                 Saved = true;
-
             }
             else
             {

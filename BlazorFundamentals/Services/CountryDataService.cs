@@ -1,5 +1,4 @@
 ﻿using BethanysPieShopHRM.Shared.Domain;
-using static BlazorFundamentals.Services.CountryDataService;
 using System.Text.Json;
 
 namespace BlazorFundamentals.Services;
