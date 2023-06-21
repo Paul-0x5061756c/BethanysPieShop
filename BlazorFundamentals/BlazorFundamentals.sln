@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BethanysPieShopHRM.Shared",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BethanysPieShopHRM.Api", "..\BethanysPieShopHRM.Api\BethanysPieShopHRM.Api.csproj", "{6A8C6A57-8127-4607-A390-792673E315FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.ComponentsLibrary", "..\BethanyPieShopHRM.ComponentsLibrary\BethanysPieShopHRM.ComponentsLibrary.csproj", "{2C582E95-AF5A-40A5-9F6C-D14C826FBB5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BethanysPieShopHRM.ComponentsLibrary", "..\BethanyPieShopHRM.ComponentsLibrary\BethanysPieShopHRM.ComponentsLibrary.csproj", "{2C582E95-AF5A-40A5-9F6C-D14C826FBB5C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorFundamentals.Tests", "..\BlazorFundamentals.Tests\BlazorFundamentals.Tests.csproj", "{178D0282-8B70-4AFB-A2DF-7AAEB7C07291}"
 EndProject

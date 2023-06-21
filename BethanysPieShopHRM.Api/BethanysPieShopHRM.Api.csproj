@@ -18,8 +18,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\BlazorFundamentals\BlazorFundamentals.csproj" />
 		<ProjectReference Include="..\BethanysPieShopHRM.Shared\BethanysPieShopHRM.Shared.csproj" />
+		<ProjectReference Include="..\BlazorFundamentals\BlazorFundamentals.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
