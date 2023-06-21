@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="deliveryMap.js" />
+    <None Remove="wwwroot\leaflet\images\layers-2x.png" />
+    <None Remove="wwwroot\leaflet\images\layers.png" />
+    <None Remove="wwwroot\leaflet\images\marker-icon-2x.png" />
+    <None Remove="wwwroot\leaflet\images\marker-icon.png" />
+    <None Remove="wwwroot\leaflet\images\marker-shadow.png" />
+    <None Remove="wwwroot\leaflet\leaflet.css" />
+    <None Remove="wwwroot\leaflet\leaflet.js" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BethanysPieShopHRM.Shared\BethanysPieShopHRM.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
